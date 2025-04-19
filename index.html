@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/extra.css">
   
     <!-- LittleLink Extended Stylesheet (Optional) -->
     <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
@@ -65,6 +66,9 @@
               <a class="button button-default" href="https://github.com/reeceappling/reeceappling.github.io" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-code.svg" alt="View Source Code">View source code</a>
               <!-- Email -->
               <a class="button button-default" href="mailto:reeceappling+littleLinks@gmail.com" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Send Me An Email</a>
+              <!-- PGP/GPG Public Key -->
+              <a id="pgpButton" class="button button-default" onclick="togglePGP();" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/lock.svg" alt="Email Icon">View PGP Key</a>
+              <div class="pgpHidden" id="pgpKey">PGP KEY HERE</div>
               <!-- Homepage -->
               <a class="button button-default" href="https://reece.appli.ng" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-homepage.svg" alt="Homepage Icon">Visit Homepage</a>
               <!-- TODO: PGP/GPG KEY -->
@@ -233,7 +237,7 @@
     
     </div>
   </div>
-
+  <script src="js/main.js"></script>
 </body>
 
 </html>
