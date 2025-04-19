@@ -10,4 +10,4 @@ document.getElementById('pgpButton').addEventListener('click', function(event) {
 // Obfuscation of some info
 const twoEquals = "=="
 const encEMA = "cmVlY2VhcHBsaW5"+/*SplitForReasons*/"nQGdtYWlsLmNvbQ"+/**/twoEquals
-document.getElementById("myEmLink").setAttribute("href", /*bad bots, go away*/"mai"+/*good human, you can stay*/"lto"+":".concat(atob(encEMA)))
+document.getElementById("myEmLink").setAttribute("h"+"r"+"ef", /*bad bots, go away*/"mai"+/*good human, you can stay*/"lto"+":".concat(atob(encEMA)))
