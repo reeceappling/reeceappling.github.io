@@ -1,5 +1,5 @@
+// PGP button
 var pgpOpen = false
-
 const pgpButton = document.getElementById('pgpButton');
 
 pgpButton.addEventListener('click', function(event) {
@@ -7,3 +7,7 @@ pgpButton.addEventListener('click', function(event) {
     document.getElementById("pgpKey").className = pgpOpen?"pgpHidden":"pgpShown"
     pgpOpen = !pgpOpen
 });
+
+// Obfuscation of some info
+const encEMA = "cmVlY2VhcHBsaW5nK2xpdHRsZUxpbmtAZ21haWwuY29t"
+document.getElementById("myEmLink").setAttribute("href", /*bad bots, go away*/"mai"+/*good human, you can stay*/"lto"+":".concat(atob(encEMA)))
