@@ -9,5 +9,5 @@ pgpButton.addEventListener('click', function(event) {
 });
 
 // Obfuscation of some info
-const encEMA = "cmVlY2VhcHBsaW5nK2xpdHRsZUxpbmtAZ21haWwuY29t"
+const encEMA = "cmVlY2VhcHBsaW5nK2"+/*SplitForMinorSecurity*/"xpdHRsZUxpbmtAZ21haWwuY29t"
 document.getElementById("myEmLink").setAttribute("href", /*bad bots, go away*/"mai"+/*good human, you can stay*/"lto"+":".concat(atob(encEMA)))
