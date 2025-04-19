@@ -72,18 +72,6 @@ You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/
 
 [![Add Your Company Name](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-company.svg)](https://www.buymeacoffee.com/seth/e/50574)
 
-#### ✨ Individual Supporters
-• **[Drew Davis](https://connect.davisdre.me)**
-
-• **[Robotter112](https://robotter112.de/)**
-
-[![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-individual.svg)](https://www.buymeacoffee.com/seth/e/50573)
-
-#### 🐙 Active GitHub Sponsors
-• **[Your Name Here](https://github.com/sponsors/sethcottle)**
-
-[![GitHub Sponsors](https://cdn.cottle.cloud/littlelink/button-github-sponsors.svg)](https://github.com/sponsors/sethcottle)
-
 
 #### 🥰 More Ways to Support LittleLink
 [![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee.svg)](https://www.buymeacoffee.com/seth/)
